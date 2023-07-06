@@ -17,6 +17,6 @@ if __name__ == "__main__":
         password = generate_password(length, include_digits=True, include_punctuation=True)
         print("Generated Password:", password)
 
-        choice = input("Generate another password? (Y/N): ")
+        choice = input("do you want another password? (Y/N): ")
         if choice.lower() != "y":
             break
